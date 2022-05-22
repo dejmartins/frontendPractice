@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reigistration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="navigation">
+        <a href="homepage.html">About Me</a>
+        <a href="contactpage.html">Contact Me</a>
+        <a href="registerpage.html">Register</a>
+        <a href="loginpage.html">Login</a>
+    </div>
+
+    <h1>REGISTER</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" nam="fname" value="Joe" required><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" value="+234-808-889-3600" pattern="+[1-4]{3}-[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <label for="gender">Select gender</label><br>
+        <select name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="not_to_say">Prefer not to say</option>
+        </select><br>
+
+        <label for="counter">Country:</label><br>
+        <input type="text" value="Togo" required><br>
+
+        <label for="state">State:</label><br>
+        <input type="text" value="Kara"><br>
+
+        <label for="username">Username:</label><br>
+        <input type="text" value="bloggs007" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" minlength="8" required><br>
+
+        <label for="confirm_pass">Confirm Password:</label><br>
+        <input type="password" minlength="8" required><br>
+       
+        <input type="submit" value="REGISTER" class="button">
+    </form>
+</body>
+</html>
